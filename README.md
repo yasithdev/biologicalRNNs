@@ -1,3 +1,8 @@
+![Schematic for constructing biologically constrained RNNs](/images/celltype-connectivity-schematic-general.png)
+<div style="text-align: center;">
+  <em>Schematic for constructing biologically constrained RNNs</em>
+</div>
+
 ### Abstract
 
 <div style="text-align: justify;">
@@ -11,3 +16,5 @@ In doing so, we find that the results of our model corroborate experimental find
 </div>
 
 ### Instructions
+
+- Trained weights for the celltypeRNN across various conditions can be downloaded <a href="https://www.dropbox.com/scl/fi/7x3gpd2gvo0k0pktvdg9n/celltypeRNN-trained-weights.zip?rlkey=wz6jp2nn1wnjlvud062s65ato&st=m1vfgju7&dl=0" target="_blank">here</a>
