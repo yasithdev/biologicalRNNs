@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: Constructing Biologically Constrained RNNs via Dale's Backpropagation and Topologically-Informed Pruning
+description: Training RNNs with anatomical constraints for inferring multi-regional functional connectivity
+show_downloads: true
+google_analytics:
