@@ -1,5 +1,5 @@
 ![Schematic for constructing biologically constrained RNNs](/images/celltype-connectivity-schematic-general.png)
-<div style="text-align: center;">
+<div style="text-align: justify;">
   <em>Schematic for constructing biologically constrained RNNs.</em> (A) Illustration of conventional (A1) vs. biologically constrained (A2) RNN models. The former consist of general purpose neurons that project a mix of excitatory and inhibitory signals, with no specific connectivity structure within or across populations.
     Biologically constrained RNNs restrict populations of neurons to be either strictly excitatory (red) or inhibitory (blue), with anatomically-informed connectivity motifs both within and across populations.
     (B) Optimization in parameter space when training with conventional backpropagation (black) vs. Dale's backprop (blue).
