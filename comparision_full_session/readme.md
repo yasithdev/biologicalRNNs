@@ -1,1 +1,0 @@
-Full session comparisons
