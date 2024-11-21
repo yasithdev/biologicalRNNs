@@ -19,5 +19,11 @@ In doing so, we find that the results of our model corroborate experimental find
 </div>
 
 ### Instructions
+The following folders can be used to replicate results corresponding to the following figures from the paper <a href="" target="_blank">Constructing Biologically Constrained RNNs via Dale's Backpropagation and Topologically-Informed Pruning</a>.
+- Dales-backprop : Fig 2
+- top-prob-pruning: Fig 3
+- celltype-recon: Fig 4
+- celltype-comparisons: Fig 5
 
-- Trained weights for the celltypeRNN across various conditions can be downloaded <a href="https://www.dropbox.com/scl/fi/7x3gpd2gvo0k0pktvdg9n/celltypeRNN-trained-weights.zip?rlkey=wz6jp2nn1wnjlvud062s65ato&st=m1vfgju7&dl=0" target="_blank">here</a>
+- data-processing: Notebooks to download and curate the dataset from the AllenSDK.
+- Trained weights for the celltypeRNN across various conditions can be downloaded <a href="https://www.dropbox.com/scl/fi/7x3gpd2gvo0k0pktvdg9n/celltypeRNN-trained-weights.zip?rlkey=wz6jp2nn1wnjlvud062s65ato&st=m1vfgju7&dl=0" target="_blank">here</a>.
