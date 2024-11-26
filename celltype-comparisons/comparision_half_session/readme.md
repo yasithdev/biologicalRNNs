@@ -1,1 +1,0 @@
-Half session comparisons
