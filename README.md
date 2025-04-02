@@ -27,3 +27,5 @@ The following folders can be used to replicate results corresponding to the foll
 
 - data-processing: Notebooks to download and curate the dataset from the AllenSDK.
 - Trained weights for the celltypeRNN across various conditions can be downloaded <a href="https://www.dropbox.com/scl/fi/7x3gpd2gvo0k0pktvdg9n/celltypeRNN-trained-weights.zip?rlkey=wz6jp2nn1wnjlvud062s65ato&st=m1vfgju7&dl=0" target="_blank">here</a>.
+
+[Run in Cybershuttle](https://hub.cybershuttle.org/hub/spawn/pjaya001@odu.edu/biologicalRNNs?git=https://github.com/yasithdev/biologicalRNNs&dataPath=hchoilab-biologicalRNNs)
