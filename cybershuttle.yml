@@ -1,0 +1,47 @@
+project:
+  name: todo
+  version: 1.0.0
+  description: todo
+  tags:
+    - neuroscience
+    - rnns
+    - sign-constrained-training
+    - pruning
+    - visual-behavior
+  homepage: https://github.com/yasithdev/allen-v1
+
+workspace:
+  location: /workspace
+  resources:
+    min_cpu: 4
+    min_gpu: 0
+    gpu_mem: 1024
+    min_mem: 4096
+    walltime: 60
+    cluster: Anvil
+    group: Cerebrum
+    queue: shared
+  model_collection:
+    - source: cybershuttle
+      identifier: ~/cybershuttle/dataset/hchoilab-biologicalRNNs/celltype-data
+      mount_point: /data/celltype-data
+  data_collection:
+    - source: cybershuttle
+      identifier: ~/cybershuttle/dataset/hchoilab-biologicalRNNs/celltype-data
+      mount_point: /data/celltype-data
+
+additional_dependencies:
+  conda:
+    - python=3.10
+    - pip
+    - numpy
+    - pytorch::pytorch
+    - pandas
+    - matplotlib
+    - holoviews
+    - seaborn
+    - tqdm
+    - scipy
+    - scikit-learn
+  pip:
+    # - allensdk
