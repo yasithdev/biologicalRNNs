@@ -8,7 +8,7 @@ project:
     - sign-constrained-training
     - pruning
     - visual-behavior
-  homepage: https://github.com/yasithdev/allen-v1
+  homepage: https://github.com/HChoiLab/biologicalRNNs
 
 workspace:
   location: /workspace
@@ -17,18 +17,11 @@ workspace:
     min_gpu: 0
     gpu_mem: 1024
     min_mem: 4096
-    walltime: 60
-    cluster: Anvil
-    group: Cerebrum
-    queue: shared
   model_collection:
     - source: cybershuttle
-      identifier: ~/cybershuttle/dataset/hchoilab-biologicalRNNs/celltype-data
-      mount_point: /data/celltype-data
-  data_collection:
-    - source: cybershuttle
-      identifier: ~/cybershuttle/dataset/hchoilab-biologicalRNNs/celltype-data
-      mount_point: /data/celltype-data
+      identifier: hchoilab-biologicalRNNs
+      mount_point: /cybershuttle_data/hchoilab-biologicalRNNs
+  data_collection: []
 
 additional_dependencies:
   conda:
@@ -43,5 +36,4 @@ additional_dependencies:
     - tqdm
     - scipy
     - scikit-learn
-  pip:
-    # - allensdk
+  pip: []
