@@ -28,7 +28,6 @@ additional_dependencies:
     - python=3.10
     - pip
     - numpy
-    - pytorch::pytorch
     - pandas
     - matplotlib
     - holoviews
@@ -36,4 +35,5 @@ additional_dependencies:
     - tqdm
     - scipy
     - scikit-learn
-  pip: []
+  pip:
+    - torch
