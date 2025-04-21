@@ -1,22 +1,22 @@
 project:
-  name: todo
-  version: 1.0.0
-  description: todo
-  tags:
-    - neuroscience
-    - rnns
-    - sign-constrained-training
-    - pruning
-    - visual-behavior
+  name: "Biologically constrained RNNs via Dale's backpropagation and topologically-informed pruning"
+  description: "Running a biologically constrained RNN via Dale's backpropagation and topologically-informed pruning"
   homepage: https://github.com/HChoiLab/biologicalRNNs
+  authors:
+    - Hannah Choi
+    - Aishwarya Balwani
+  tags:
+    - neurodata25
+    - hchoilab
+    - biological-rnn
 
 workspace:
   location: /workspace
   resources:
     min_cpu: 4
     min_gpu: 0
-    gpu_mem: 1024
     min_mem: 4096
+    gpu_mem: 1024
   model_collection:
     - source: cybershuttle
       identifier: hchoilab-biologicalRNNs
